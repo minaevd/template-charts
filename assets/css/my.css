@@ -1,0 +1,168 @@
+.panel-narrow {
+	width: 150px;
+}
+
+.panel-narrow .panel-body {
+	padding: 30px 15px 5px;
+	height: 65px;
+	font-weight: 100;
+}
+
+.panel-body {
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	text-align: center;
+	height: 320px;
+}
+
+.panel-footer {
+	text-align: center;
+	padding: 0 15px 10px;
+	font-weight: 200;
+	background-color: transparent;
+	border-top: 0;
+}
+
+.chart_value {
+	padding-top: 40px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+}
+
+.panel-low .panel-body {
+	height: 149px;
+}
+.panel-low .chart_canvas {
+	height: 149px;
+}
+.chart_canvas {
+	height: 100%;
+}
+
+#canvas_gauge {
+	height: initial;
+}
+
+#canvas_spline {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+.table-tiny {
+	font-size: 12px;
+/* 	text-decoration: none; */
+/* 	list-style: none; */
+	text-align: left;
+	padding: 0;
+	margin-top: 20px;
+}
+.table-tiny tr:first-child td {
+	border:0;
+}
+.table-tiny>tbody>tr>td {
+	padding: 2px 1px;
+}
+
+
+.abs-tiny-center {
+	position: relative;
+	font-size: 14px;
+	font-weight: 200;
+	padding: 0;
+	margin: -28px 0 0 0;
+}
+
+.chart_desc {
+	font-weight: 200;
+}
+
+.badge {
+	display: inline-block !important;
+	height: 12px;
+	width: 12px;
+	border-radius: 9px;
+	background-clip: padding-box;
+	padding: 0;
+	vertical-align: middle;
+}
+
+
+.bgcolor-1 {
+	background-color: #5DB2FF;
+}
+.bgcolor-2 {
+	background-color: #FB6E52;
+}
+.bgcolor-3 {
+	background-color: #A0D468;
+}
+.bgcolor-4 {
+	background-color: #FFCE55;
+}
+
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
